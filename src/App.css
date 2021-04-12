@@ -136,7 +136,7 @@ span > a{
 .fire{background-color: orangered;}
 .rock {background-color: lightsalmon;}
 .ground{background-color: rgb(158, 90, 1);}
-.poison {background-color: purple;}
+.poison {background-color: rgb(201, 0, 201);}
 .dark{background-color: darkslategray;}
 .bug{background-color: lightgreen;}
 .fighting{background-color: sienna;}
@@ -145,7 +145,7 @@ span > a{
 .flying{background-color: rgb(188, 236, 255);}
 .fairy{background-color: lightpink;}
 .steel {background-color: rgb(116, 116, 116);}
-.dragon{background-color: blue;}
+.dragon{background-color: rgb(73, 53, 160);}
 .ice{background-color: rgb(0, 157, 255);}
 .ghost {background-color: rgb(146, 112, 168);}
 
