@@ -28,6 +28,9 @@ const routes = [
 export default function App () {
   return (
     <Router>
+      <head>
+        <title>PkmnProj</title>
+      </head>
       <header>
         <h1 className="homePageLink"><Link to="/">PkmnProj</Link></h1>
         <nav>
