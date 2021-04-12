@@ -19,7 +19,7 @@ const TheTypes = ({pkDetails}) => {
             if(type === "fire")         {setColor1("orangered");                return;}
             if(type === "rock")         {setColor1("lightsalmon");              return;}
             if(type === "ground")       {setColor1("rgb(158, 90, 1)");          return;}
-            if(type === "poison")       {setColor1("purple");                   return;}
+            if(type === "poison")       {setColor1("rgb(201, 0, 201)");         return;}
             if(type === "dark")         {setColor1("#2f504f");                  return;}
             if(type === "bug")          {setColor1("lightgreen");               return;}
             if(type === "fighting")     {setColor1("sienna");                   return;}
@@ -41,7 +41,7 @@ const TheTypes = ({pkDetails}) => {
             if(type === "fire")         {setColor2("orangered");                return;}
             if(type === "rock")         {setColor2("lightsalmon");              return;}
             if(type === "ground")       {setColor2("rgb(158, 90, 1)");          return;}
-            if(type === "poison")       {setColor2("purple");                   return;}
+            if(type === "poison")       {setColor2("rgb(201, 0, 201)");         return;}
             if(type === "dark")         {setColor2("#2f504f");                  return;}
             if(type === "bug")          {setColor2("lightgreen");               return;}
             if(type === "fighting")     {setColor2("sienna");                   return;}
