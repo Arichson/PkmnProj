@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0
+    /* border: 2px solid black */
+}
+
+.typeDiv{
+    width: 50%;
+    border: 2px solid blue;
+    border-left: none;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 50%, 100% 100%, 0% 100%, 0% 0%);
+    background-color: rosybrown;
+    text-align: left;
+    padding: 0 10px
+}
+.typeDiv > div{
+    display: inline
+}
+.sprites {
+    display: flex;
+    justify-content: left;
+    width: 200px;
+}
+.regular, .shiny {
+    background-color: rgb(216, 168, 216);
+    width: 100px;
+}

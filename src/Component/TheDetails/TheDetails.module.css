@@ -1,0 +1,60 @@
+.deetSiblings {
+    width: 205px;
+    vertical-align: center;
+    text-align: center;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+}
+.details > div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.typeDiv{
+    width: 50%;
+    padding: 10px;
+    border-left: none;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 50%, 100% 100%, 0% 100%, 0% 0%);
+    background-color: rosybrown;
+    text-align: left;
+}
+.typeDiv > div{
+    display: inline
+}
+.containsAllEvos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+img{
+    width: 100px;
+}
+.sprites {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.dex{
+    border: 3px solid black;
+    padding: 10px;
+}
+@media screen and (max-width: 629px){
+.details{
+    text-align: center;
+    width: 100%;
+}
+.regular, .shiny {
+    width: 100px;
+}
+.typeDiv{
+    display: block;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+}

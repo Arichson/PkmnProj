@@ -1,0 +1,37 @@
+.evolutionBox{
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+p{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.firstEvolution, .secondEvolution, .thirdEvolution {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.checkFirst, .checkSecond, .checkThird{
+    border: 3px solid rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+}
+.checkSecond, .checkThird{
+    border-top: none;
+}
+.eachPk{
+    text-align: center;
+    padding: 0 10px;
+    width: 150px;
+}
+.eachPk:hover{
+    border-radius: 20px;
+    background-color: rgba(225,225,225,.4);;
+}

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.theWholeLeft{
+    position: fixed;
+    top:50%;
+    left: 0%;
+    transform: translateY(-55%);
+}
+.theWholeRight{
+    position: fixed;
+    top:50%;
+    right: 0%;
+    transform: translateY(-55%);
+}
+.theWholeLeft:hover, .theWholeRight:hover{
+    cursor: pointer;
+}
+.topDiv {
+    background-color: red;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+.midDiv {
+    background-image: radial-gradient(white, black, black);
+    width: 30px;
+    height: 25px;
+}
+.botDiv {
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+.topDiv:hover {
+    background-color: rgb(129, 0, 0);
+    color: white
+}
+.midDiv:hover {
+    background-image: radial-gradient(white, black);
+}
+.botDiv:hover {
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
